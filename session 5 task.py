@@ -36,13 +36,6 @@ class Member:
 book2 = Book("Clean Code", "Robert C. Martin", "999")
 book1 = Book("Memory in the flesh", "Ahalam", "888")
 
-member1 = Member("Ahmed", "M001")
-
-member1.borrow_book(book1)
-member1.borrow_book(book2)
-
 book1.display_info()
-
-member1.return_book(book1)
-book1.display_info()
+book2.display_info()
 
